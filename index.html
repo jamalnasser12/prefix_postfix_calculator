@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post fix pre fix calculator</title>
+</head>
+<body>
+    <header>
+        <h1>prefix and postfix calculator</h1>
+    <div class="toggle">
+    <button id="toggleMode">🌛</button>
+    </div>
+</header>
+<div class="main">
+    <!-- calculation section -->
+    <section id="calculator">
+        <div class="input">
+            <h2>Prefix Expression</h2>
+            <input type="text" id="prefixInput" placeholder="Enter prefix expression">
+        </div>
+        <div class="input">
+            <h2>Postfix Expression</h2>
+            <input type="text" id="postfixInput" placeholder="Enter postfix expression">
+        </div>
+        <div class="buttons">
+            <button class="calc-btn" id="evalPrefix">Evaluate Prefix</button>
+            <button class="calc-btn" id="evalPostfix">Evaluate Postfix</button>
+            <button class="calc-btn" id="clear">Clear</button>
+          </div>
+          <div id="results">
+            <h2>Results:</h2>
+            <div id="output"></div>
+          </div>
+
+    </section>
+    <!-- educational section -->
+    <section id="info">
+        <h3>About Prefix and Postfix Notations</h3>
+        <p>Prefix and Postfix are alternative ways of writing arithmetic expressions without needing parentheses.</p>
+        <ul>
+          <li>Prefix: Operator precedes operands (e.g., + 3 4)</li>
+          <li>Postfix: Operator follows operands (e.g., 3 4 +)</li>
+        </ul>
+      </section>
+</div>
+</body>
+</html>
