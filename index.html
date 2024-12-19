@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>post fix pre fix calculator</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
 </header>
 <div class="main">
     <!-- calculation section -->
-    <section id="calculator">
+    <section id="calculator" class="calculator">
         <div class="input">
             <h2>Prefix Expression</h2>
             <input type="text" id="prefixInput" placeholder="Enter prefix expression">
@@ -28,14 +29,14 @@
             <button class="calc-btn" id="evalPostfix">Evaluate Postfix</button>
             <button class="calc-btn" id="clear">Clear</button>
           </div>
-          <div id="results">
+          <div id="results" class="results">
             <h2>Results:</h2>
             <div id="output"></div>
           </div>
 
     </section>
     <!-- educational section -->
-    <section id="info">
+    <section class="info">
         <h3>About Prefix and Postfix Notations</h3>
         <p>Prefix and Postfix are alternative ways of writing arithmetic expressions without needing parentheses.</p>
         <ul>
